@@ -45,8 +45,21 @@ print("La palabra con mayor puntaje es %s ( %d puntos )"%(L_palabras_limpias[ind
 #Tema 2
 print("Tema 2\n")
 
-#Tema 4
-print("Tema 4")
+"""
+Popularidad = número de suscriptores
+Rentabilidad = ganancias anuales / número de suscriptores
+"""
+espana = ["elrubiusOMG", "VEGETTA777","Pablo Alborán"]
+ecuador = ["enchufetvLIVE", "Kreizivoy", "Ecuavisa" ]
+mexico = ["Yuya", "Werevertumorro","CaELiKe" ]
+
+L = [[24771906,18451280,78493,133538,18554394,13548964],[5477807839,7046108694,798122,21104851,1967543913,2034702069],[21900,45500,36,156,6700,12200],[262800,546000,430,1900,80000,12200]]
+M = np.array(L)
+
+print(M)
+
+#Tema 3
+print("Tema 3")
 """
 a) Dada la siguiente lista L = [ 12, 9 , 1, 3, 2, 10, 20, 5, ...]
 Genere 3 posiciones aleatorias de tal manera que los valores correspondientes sumen al menos 20. Al
